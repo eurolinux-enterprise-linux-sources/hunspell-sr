@@ -2,7 +2,7 @@ Name: hunspell-sr
 Summary: Serbian hunspell dictionaries
 %define upstreamid 20100920
 Version: 0.%{upstreamid}
-Release: 6%{?dist}
+Release: 7%{?dist}
 Source: http://extensions.services.openoffice.org/e-files/1572/6/dict-sr.oxt
 Group: Applications/Text
 URL: http://extensions.services.openoffice.org/project/dict-sr
@@ -78,6 +78,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hyphen/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20100920-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20100920-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
